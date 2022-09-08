@@ -3,8 +3,9 @@
     position: absolute;
     left: 0;
     right: 0;
-    top: 50%;
+    top: 43%;
     transform: translateY(-50%);
+    
 
   }
 
@@ -13,6 +14,7 @@
 }
 
 #titulo{
+  margin-top: 25px;
   height: 130%;
   color: var(--ion-color-dark);
   font-size: 323%;
@@ -24,14 +26,15 @@
 
 .botao{
   font-size: 12px;
-  margin-top: 15px;
+  margin-top: 54px;
   margin-right: 21px;
-  width: 100px;
-  
+  width: 150px;
   
 }
 
 .botao:hover{
   font-size: 13px;
-  font-weight: bolder; 
+  font-weight: bolder;
+  color: var(--ion-color-dark); 
+
 }
