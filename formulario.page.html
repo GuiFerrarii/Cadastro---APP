@@ -1,6 +1,6 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>formulario</ion-title>
+    <ion-title id="titulo">Formulário</ion-title>
   </ion-toolbar>
 </ion-header>
 
@@ -33,8 +33,9 @@
           <ion-input [(ngModel)]="cliente.cpf" formControlName="cpf"></ion-input>
           <small class="error-message" *ngIf="(clienteForm.get('cpf').errors?.required || clienteForm.get('cpf').errors?.minlength || clienteForm.get('cpf').errors?.maxlength) && form.submitted">Cpf invalido</small>
         </ion-item>
-    
-        <ion-button color="dark" shape="round" type="submit" >Confirmar</ion-button>
+        
+ 
+        <ion-button class="botao" color="light" shape="round" type="submit" >Confirmar</ion-button>
     
       </div>
   
